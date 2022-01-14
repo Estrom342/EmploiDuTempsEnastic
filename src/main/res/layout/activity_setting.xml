@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SettingActivity"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="@string/text_setting"/>
+    <GridLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:columnCount="2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        <TextView
+                android:text="@string/text_adresse_du_serveur"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/setting_activity_id_hostName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/text_default_host_name"
+                android:ems="10"/>
+        <TextView
+                android:text="@string/text_port"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/setting_activity_id_port_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="@string/default_port_name"
+                android:ems="10"/>
+        <TextView
+                android:text="@string/text_filiere"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/setting_activity_id_class_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="ITM"
+                android:ems="10"/>
+    </GridLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <Button android:id="@+id/setting_activity_id_btn_cancel"
+                android:text="@string/text_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button android:id="@+id/setting_activity_id_btn_save"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_save"/>
+    </LinearLayout>
+</LinearLayout>

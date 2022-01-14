@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/id_item_home"
+          android:icon="@drawable/ic_action_home"
+          app:showAsAction="always"
+          android:title="Home"/>
+
+    <item android:id="@+id/id_item_setting1"
+          android:title="@string/text_settings"
+          android:icon="@drawable/ic_action_settings"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/id_item_history"
+          android:title="@string/text_history"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/id_item_print"
+          android:title="@string/text_print"
+          app:showAsAction="never"/>
+    <item android:id="@+id/id_item_setting"
+          android:title="@string/text_settings"
+          app:showAsAction="never"/>
+    <item android:id="@+id/id_item_quit"
+          android:title="@string/text_quit"
+          app:showAsAction="never"/>
+    <item android:id="@+id/id_item_about"
+          android:icon="@drawable/ic_action_about"
+          android:title="@string/text_about"
+          app:showAsAction="never"/>
+    <item android:id="@+id/id_item_help"
+          android:title="@string/text_help"
+          android:icon="@drawable/ic_action_help"
+          app:showAsAction="always"/>
+</menu>

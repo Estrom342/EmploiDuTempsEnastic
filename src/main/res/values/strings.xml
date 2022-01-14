@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Emploi Enastic</string>
+    <string name="text_history">Historique</string>
+    <string name="text_print">Imprimer</string>
+    <string name="text_settings">Parametre</string>
+    <string name="text_quit">Quitter</string>
+    <string name="text_about">A propos</string>
+    <string name="text_help">Aide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_voir_emploi">Voir l\'emploi</string>
+    <string name="text_adresse_du_serveur">Adresse du serveur</string>
+    <string name="text_port">Port</string>
+    <string name="text_filiere">Filiere</string>
+    <string name="default_port_name">2222</string>
+    <string name="text_cancel">Anuler</string>
+    <string name="text_save">Enregistrer</string>
+    <string name="text_setting">Parametre</string>
+    <string name="text_default_host_name">emploi.monecole.lan</string>
+    <string name="offline_icon">⬤</string>
+    <string name="onLine_icon">🔵</string>
+    <string name="messageOnQuit">Quitter l\'application?</string>
+    <string name="text_preview">Preview</string>
+    <string name="text_next">Next</string>
+    <string name="choose_classroom_text">Choisir une salle</string>
+</resources>
