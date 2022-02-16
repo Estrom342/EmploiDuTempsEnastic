@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/logoenastic.png</file>
+        <file>img/logoenastic1.png</file>
+        <file>img/preview.png</file>
+        <file>img/next.png</file>
+        <file>img/signature.jpg</file>
+        <file>res/aPropos.html</file>
+        <file>res/aide.html</file>
+        <file>img/icon.svg</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>localDataBase.sql</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>res/logoenastic.png</file>
+        <file>res/logoenastic1.png</file>
+        <file>model/localDataBase.sql</file>
+        <file>res/preview.png</file>
+        <file>res/next.png</file>
+        <file>res/aide.html</file>
+        <file>res/aPropos.html</file>
+        <file>res/anime/img5.JPG</file>
+        <file>res/anime/img4.JPG</file>
+        <file>res/anime/img3.JPG</file>
+        <file>res/anime/img2.JPG</file>
+        <file>res/anime/img1.JPG</file>
+        <file>res/icon.svg</file>
+    </qresource>
+</RCC>
