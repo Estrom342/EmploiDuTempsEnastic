@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS Matiere (
   numCase INT(2) NOT NULL,
   couleur VARCHAR(10),
   type_ VARCHAR(4),
-  commentaire VARCHAR(90);
+  commentaire VARCHAR(90),
   UNIQUE KEY(idMatiereStatique, idEmploie, numCase),
   FOREIGN KEY (idMatiereStatique) REFERENCES MatiereStatique (idMatiere),
   FOREIGN KEY (idEmploie) REFERENCES Emploie(idEmploie)
